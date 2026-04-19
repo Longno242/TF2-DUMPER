@@ -79,5 +79,3 @@ Offsets are **entity-relative** (RecvTable layout), not raw pointers.
 This tool reads memory from a live game process. That may violate game or platform terms and can interact with anti-cheat. Use only on accounts and environments where you are allowed to do so. This project is for education and interoperability research.
 
 ## License
-
-No license is set by default; add one if you share the repo publicly.
