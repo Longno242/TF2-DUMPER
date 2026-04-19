@@ -1,0 +1,10 @@
+^C:\USERS\JOE\DESKTOP\TF2 DUMP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Desktop/tf2 dump" "-BC:/Users/Joe/Desktop/tf2 dump/build" --check-stamp-file "C:/Users/Joe/Desktop/tf2 dump/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
