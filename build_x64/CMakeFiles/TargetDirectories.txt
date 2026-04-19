@@ -1,0 +1,3 @@
+C:/Users/Joe/Desktop/tf2 dump/build_x64/CMakeFiles/tf2_dumper.dir
+C:/Users/Joe/Desktop/tf2 dump/build_x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Joe/Desktop/tf2 dump/build_x64/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\JOE\DESKTOP\TF2 DUMP\BUILD_X64\CMAKEFILES\37BD14B92D006B4949F6CA6EAC7ABEAD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Desktop/tf2 dump" "-BC:/Users/Joe/Desktop/tf2 dump/build_x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Joe/Desktop/tf2 dump/build_x64/tf2_dumper.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
